@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#081427"/>
+      <stop offset="30%" stop-color="#102548"/>
+      <stop offset="70%" stop-color="#0d1d32"/>
+      <stop offset="100%" stop-color="#060d18"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="20%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#6ae4ff" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#5d7eff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#5d7eff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="80%" cy="60%" r="45%">
+      <stop offset="0%" stop-color="#73ffb2" stop-opacity="0.75"/>
+      <stop offset="40%" stop-color="#4ca9ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4ca9ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="360" cy="260" r="420" fill="url(#glowA)"/>
+  <circle cx="1260" cy="700" r="420" fill="url(#glowB)"/>
+
+  <g opacity="0.26">
+    <path d="M0 760 C 420 620, 620 710, 800 610 C 980 510, 1200 650, 1600 510 L1600 1000 L0 1000 Z" fill="#1d4f82"/>
+    <path d="M0 860 C 300 760, 520 840, 800 760 C 1080 680, 1320 830, 1600 780 L1600 1000 L0 1000 Z" fill="#18315a"/>
+  </g>
+
+  <g opacity="0.75">
+    <rect x="90" y="76" width="280" height="120" rx="24" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="1240" y="84" width="260" height="100" rx="20" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.12"/>
+  </g>
+
+  <g opacity="0.52">
+    <path d="M1220 300 L1540 300 L1540 680 L1220 680 Z" fill="#0d1b2a" stroke="#83c8ff" stroke-opacity="0.3"/>
+    <path d="M1238 332 L1522 332" stroke="#bce9ff" stroke-opacity="0.3"/>
+    <path d="M1238 388 L1522 388" stroke="#bce9ff" stroke-opacity="0.22"/>
+    <path d="M1238 444 L1522 444" stroke="#bce9ff" stroke-opacity="0.2"/>
+    <path d="M1238 500 L1522 500" stroke="#bce9ff" stroke-opacity="0.2"/>
+    <path d="M1238 556 L1522 556" stroke="#bce9ff" stroke-opacity="0.2"/>
+  </g>
+</svg>

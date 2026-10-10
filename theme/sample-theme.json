@@ -1,0 +1,21 @@
+{
+  "name": "windows11-inspired-mac-theme",
+  "description": "A simple Windows 11-inspired visual theme for macOS.",
+  "version": "0.1.0",
+  "wallpaper": "assets/wallpapers/windows11-aurora.svg",
+  "icons": [
+    "assets/icons/start-button.svg",
+    "assets/icons/folder-win11.svg"
+  ],
+  "dock": {
+    "orientation": "left",
+    "autohide": true,
+    "tileSize": 42,
+    "transparency": "reduced"
+  },
+  "theme": {
+    "accent": "#2b7cff",
+    "surface": "#f3f5f9",
+    "windowBackground": "#eaf0f8"
+  }
+}

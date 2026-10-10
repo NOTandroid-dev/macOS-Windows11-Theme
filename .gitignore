@@ -1,0 +1,32 @@
+# macOS Windows 11 Theme
+
+A Windows 11-inspired visual theme for macOS.
+
+## What this repo is
+
+This repo is a starter theme pack for people who want their Mac to feel and look more like Windows 11 while still running macOS.
+
+It includes:
+
+- wallpaper assets
+- icon starter files
+- installer and rollback scripts
+- instructions for a simple desktop transformation
+
+## Project goals
+
+- make the desktop flatter and more minimal
+- use Windows-inspired colors, contrast, and spacing
+- apply a simple, lightweight theme without replacing the whole system
+
+## Files
+
+- `scripts/install-theme.sh` — apply theme settings
+- `scripts/uninstall-theme.sh` — revert changes
+- `assets/wallpapers/windows11-aurora.svg` — sample wallpaper
+- `assets/icons/*.svg` — icon templates
+- `docs/SETUP.md` — setup guide
+
+## Notes
+
+This is a cosmetic customization project. It is not a copy of Windows, and it does not replace the macOS system.
